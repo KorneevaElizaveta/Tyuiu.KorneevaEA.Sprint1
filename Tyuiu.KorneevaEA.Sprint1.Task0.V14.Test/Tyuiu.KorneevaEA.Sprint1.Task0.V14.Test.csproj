@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C3F0AA2F-CFDB-4923-952E-A9C61419D58C}</ProjectGuid>
+    <ProjectGuid>{8958BCD7-8DD8-45C2-BE91-F59046CD4308}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.KorneevaEA.Sprint1.Task1.V14.Test</RootNamespace>
-    <AssemblyName>Tyuiu.KorneevaEA.Sprint1.Task1.V14.Test</AssemblyName>
+    <RootNamespace>Tyuiu.KorneevaEA.Sprint1.Task0.V14.Test</RootNamespace>
+    <AssemblyName>Tyuiu.KorneevaEA.Sprint1.Task0.V14.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.KorneevaEA.Sprint1.Task1.V14.Lib\Tyuiu.KorneevaEA.Sprint1.Task1.V14.Lib.csproj">
-      <Project>{e6c2da4b-15c1-4ec5-a746-8978c58ce5e9}</Project>
-      <Name>Tyuiu.KorneevaEA.Sprint1.Task1.V14.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.KorneevaEA.Sprint1.Task0.V14.Lib\Tyuiu.KorneevaEA.Sprint1.Task0.V14.Lib.csproj">
+      <Project>{40ef718a-785f-4c90-a865-e86d16776eb2}</Project>
+      <Name>Tyuiu.KorneevaEA.Sprint1.Task0.V14.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
